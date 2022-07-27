@@ -1,0 +1,388 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    padding-bottom: 3rem;
+    min-height: 100vh;
+}
+
+header{
+background-color: aqua;
+text-align: center;
+padding: 25px 0;
+
+
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 20px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000;
+    color:#fff;
+    transition: 1s;
+    
+}
+
+.encabezado{
+    background-image: url(../img/super2.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    
+}
+
+
+.encabezado p{
+font-size: 20px;
+}
+
+.encabezado h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.ir-top{
+    
+    display: inline-block;
+    padding: 20px;
+    background: #696969;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 70px;
+    
+    
+}
+
+.ir-top a i{
+    color: #fff
+}
+
+.ir-top a i:hover{
+    color: #000;
+    transition: .5s;
+}
+
+.space{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/utensilios.jpg);
+    
+}
+
+.space2{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/kitchen-3564506_1280.jpg_1364161016.jpg);
+    
+}
+
+.space3{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/utensilios.jpg);
+    
+}
+
+.space4{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/gabinetes.jpg);
+    
+}
+
+.space{
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-image: url(../img/utensilios.jpg);
+    
+}
+
+
+
+
+#utensilios {
+    padding: 120px 0;
+   
+  }
+  
+  
+
+  .contenido {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 80px 80px;
+    justify-content: center;
+    
+  }
+
+  .titulo {
+    font-size: 56px;
+    font-weight: 300;
+  }
+
+  .contenedor{
+      width: 100%;
+      padding: 20px;
+      column-count: 3;
+      max-width: 1100px;
+      
+  }
+
+
+  .cartas {
+     
+      width: 100%;
+      margin: 20px;
+      border-radius: 6px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+      cursor: default;
+      transition: all 400ms ease;
+      
+  }
+
+  .cartas:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+  }
+
+  .cartas img{
+      height: 220px;
+      width: 100%;
+  }
+
+  .cartas .contenido-carta{
+    padding: 15px;
+    text-align: center;
+}
+  .cartas .contenido-carta p{
+      line-height: 1.5;
+      color: #6a6a6a;
+  }
+
+
+  .btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: 100%;
+    background: #ced4da;
+  }
+  .btn:hover{
+    background-color: #696969;
+      transition: .4s;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+  #contacto{
+    background-color: #495057;
+    margin-top: 20px;
+  }
+
+  form {
+    padding-top: 90px;
+    width: 50%;
+    margin: 0 auto;
+    
+  }
+  
+  form label {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  
+  form .form-group {
+    margin-bottom: 16px;
+  }
+  
+  form .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+
+  .final{
+      width: 100%;
+      margin-top: 20px;
+      padding: 1rem 0;
+      background-color: darkcyan;
+      position: absolute;
+      bottom: 0;
+      
+  }
+
+  .final p{
+      text-align: center;
+  }
+
+
+  .redes-sociales{
+      position: fixed;
+      right: 0;
+      top: 35%;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      z-index: 100;
+  }
+
+  .redes-sociales a i{
+      color: #2e406e;
+      text-decoration: none;
+      padding: .7rem;
+      display: flex;
+      transition: all .5s;
+
+  }
+
+  .redes-sociales a{
+    
+    text-decoration: none;
+    
+}
+
+
+.redes-sociales a i:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.redes-sociales a i:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+
+.redes-sociales a i:hover{
+padding-right: 3rem;
+border-radius: 1rem 0 0 1rem;
+box-shadow: 0 0 .5rem rgba(0, 0, 0,0.42 );
+}
+
+
+.agregar-carrito{
+   
+    padding: 10px 60px;
+    text-decoration: none;
+    color: #30CB8C;
+    background-color: #2e406e;
+    border-radius: 5px;
+}
+
+
+.agregar-carrito:hover{
+    background-color: #469646;
+    transition: .5s;
+}
+
+
+.carrito{
+    padding: 25px 10px;
+    background-color: #2e406e;
+    color: #30CB8C;
+}
+
+#volver{
+    margin-top: 20px;
+    margin-right: 30px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 30px;
+    background-color: #ced4da;
+    border-radius: 10px;
+}
+
+#volver:hover{
+    color: red;
+    background-color: #000;
+    transition: .6s;
+}
+
+
+
+ .btncompra{
+     margin-bottom: 50px;
+    
+
+ }
+
+#compra{
+    background-color: #2e406e;
+    padding: 10px 20px;
+    margin-right: 50px;
+    right: 0;
+    position: absolute;
+    text-decoration: none;
+    color: #30CB8C;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+#compra:hover{
+    color: #469646;
+    background-color: #20466b;
+    transition: .6s;
+}
+
+#precio{
+    font-size: 50px;
+    text-align: right;
+    margin-right: 60px;
+}
